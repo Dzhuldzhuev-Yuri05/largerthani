@@ -1,0 +1,271 @@
+body {
+	font-family: "Roboto", sans-serif;
+	overflow: auto;
+}
+nav {
+	display: flex;
+	padding: 18px 110px;
+	align-items: center;
+	position: sticky;
+	top: 0px;
+	z-index: 99;
+	background-color: white;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.logo {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 44px;
+}
+strong {
+	font-family: "Courgette", cursive;
+	font-weight: 400;
+}
+.nav {
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+
+	column-gap: 40px;
+	line-height: 18px;
+
+}
+.action {
+	color: rgba(242, 201, 76, 1)!important;
+}
+.nav_item {
+	color:#525560;
+}
+.nav_item:hover {
+	color: black;
+}
+.btn {
+	display: inline-block;
+	border-radius: 4px;
+	color: white;
+	background-color: rgba(138, 121, 93, 1.0);
+
+	transition: color .4s, background-color .6s;
+}
+.btn:hover {
+	cursor: pointer;
+	color: rgba(70, 130, 180, 1.0);
+	background-color: rgba(138, 121, 93, 0);
+}
+.btn p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+
+	padding: 12px 32px;
+	
+}
+
+/*header*/
+header {
+	background-color: rgba(252, 237, 198, 1);
+}
+.header_text {
+	padding-left:354px;
+}
+header h1 {
+	padding: 76px 0px 48px;
+	font-weight: 700;
+	font-size: 56px;
+	color: rgba(29, 33, 48, 1);
+}
+.header_block {
+	display: flex;
+	padding-bottom: 96px;
+	column-gap: 26px;
+}
+.header_block-item {
+	display: flex;
+	font-weight: 500;
+	font-size: 16px;
+	column-gap: 8px;
+}
+
+/*read_body-text*/
+.read_body-text {
+	display: grid;
+	row-gap: 32px;
+	padding: 96px 378px 96px 354px;
+}
+.read_body-text h2 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 67.2px;
+}
+.read_body-text p {
+	text-align: left;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25.6px;
+	color: rgba(82, 85, 96, 1);
+}
+.read_body-text img {
+	border-radius: 20px;
+}
+
+/*Our*/
+.Our {
+	display: grid;
+	row-gap: 48px;
+	justify-content: center;
+	font-family: "Roboto", sans-serif;
+	padding: 0px 354px 86px;
+}
+.our_h2{
+	font-weight: 500;
+	font-size: 40px;
+}
+.our_grid {
+	display: grid;
+	width: 768px;
+	row-gap: 24px;
+
+}
+.our_item {
+	width:90%;
+	border-radius: 20px;
+	background-color: rgba(242, 201, 76, 1);
+}
+.our_cont {
+	position: relative;
+	display: flex;
+	padding: 32px 48px 40px 40px;
+	column-gap: 20px;
+}
+.our_data {
+	font-weight: 500;
+}
+.num {
+	font-size: 48px;
+}
+.A {
+	font-size: 16px;
+}
+.our_title {
+	width: 381px;
+}
+.our_title p {
+	display: flex;
+	align-items: center;
+	column-gap: 24px;
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.our_title p:after {
+	content: "";
+	width: 44px;
+	height: 2px;
+	background-color: rgba(29, 33, 48, 1);
+} 
+.our_title h3 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 42px;
+	margin-top: 8px;
+}
+.our_btn {
+	position: absolute;
+	width: 56px;
+	height: 56px;
+	top:59px;
+	left:550px;
+	border-radius: 50%;
+	background-color: white;
+
+	transition: transfirm 60s cubic-bezier(0, 0, 0,-0.01), box-shadow .4s cubic-bezier(0, 0, 0,-0.01);
+}
+.our_btn:hover {
+	transform: translateY(-3px) translateX(-3px);
+	box-shadow: 3px 1.5px 4px 3px #CC7722;
+}
+.our_btn img {
+	position: absolute;
+	top: 20px;
+	left: 19px;
+}
+
+/*footer*/
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 86px 110px 96px;
+	background-color: rgba(11, 7, 6, 1);
+}
+.logo_whi {
+	color: white;
+}
+.link {
+	display: flex;
+	column-gap: 88px;
+
+	font-family: "Roboto", sans-serif;
+
+	color: white;
+}
+.link p {
+	font-size: 16px;
+	font-weight: 700;
+}
+.link ul {
+	display: grid;
+	list-style: none;
+	grid-gap: 24px;
+}
+.link a {
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+
+	color: rgba(255, 255, 255, .5);
+}
+.link a:hover {
+	font-weight: 600;
+	color: rgba(255, 255, 255, 1);
+}
+
+/*subs*/
+.subs {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 56px;
+
+	color: white;
+}
+.subs p {
+	margin-bottom: 32px;
+}
+.subs input {
+	width: 408px;
+	height: 64px;
+	padding: 20px 30px 20px 24px;
+	border: 1px solid rgba(235, 240, 249, 0.3);
+	border-radius: 4px;
+
+	font-size: 16px;
+	font-weight: 400;
+}
+.subs-btn {
+	padding: 22px 32px;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+
+	color: rgba(29, 33, 48, 1);
+	background-color: #fff;
+
+	transition: color .4s, background-color .6s;
+}
+.subs-btn:hover {
+	color: white;
+	background-color: rgba(255, 255, 255, 0);
+}

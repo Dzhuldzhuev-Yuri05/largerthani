@@ -1,0 +1,510 @@
+body {
+	overflow: auto;
+}
+nav {
+	display: flex;
+	padding: 18px 110px;
+	align-items: center;
+	position: sticky;
+	top: 0px;
+	z-index: 99;
+	background-color: white;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.logo {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 44px;
+}
+strong {
+	font-family: "Courgette", cursive;
+	font-weight: 400;
+}
+.nav {
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+
+	column-gap: 40px;
+	line-height: 18px;
+
+}
+.action {
+	color: rgba(242, 201, 76, 1)!important;
+}
+.nav_item {
+	color:#525560;
+}
+.nav_item:hover {
+	color: black;
+}
+.btn {
+	display: inline-block;
+	border-radius: 4px;
+	color: white;
+	background-color: rgba(138, 121, 93, 1.0);
+
+	transition: color .4s, background-color .6s;
+}
+.btn:hover {
+	cursor: pointer;
+	color: rgba(70, 130, 180, 1.0);
+	background-color: rgba(138, 121, 93, 0);
+}
+.btn p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+
+	padding: 12px 32px;
+	
+}
+
+/*main*/
+main {
+	font-family: "Roboto", sans-serif;
+}
+
+/*read_body*/
+.read_body {
+	display: grid;
+	width: 73%;
+	row-gap: 32px;
+	padding: 76px 0px 96px 238px;
+}
+.title {
+	display: flex;
+	align-items: center;
+
+	column-gap: 24px;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.title:before {
+	content: "";
+	width: 72px;
+	height: 2px;
+
+	background-color: black;
+}
+.read_body-text {
+	display: grid;
+	width: 832px;
+	row-gap: 32px;
+	margin-left: 96px;
+}
+.read_body-text h1 {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 67.2px;
+}
+.read_body-text p {
+	text-align: left;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25.6px;
+	color: rgba(82, 85, 96, 1);
+}
+.read_body-text img {
+	border-radius: 20px;
+}
+
+/*Some*/
+.Some h2 {
+	font-weight: 700;
+	font-size: 48px;
+	margin-left: 96px;
+	margin-bottom: 16px;
+	color: rgba(29, 33, 48, 1);
+}
+.Some-text {
+	display: grid;
+	row-gap: 16px;
+}
+.Some ul {
+	margin-left: 16px;
+	line-height: 25.6px;
+	list-style: disc !important;
+}
+.Some li {
+	display: flex;
+}
+
+/*Feat*/
+.Feat {
+	padding: 96px 238px;
+	background-color: rgba(252, 237, 198, 1);
+}
+.Feat_block {
+	display: grid;
+	width: 1024px;
+	height: 244px;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 48px;
+	row-gap: 48px;
+}
+.Feat_block-item {
+	display: flex;
+	column-gap: 22px;
+}
+.Feat_block-item h6 {
+	
+	font-weight: 700;
+	font-size: 24px;
+	color: rgba(29, 33, 48, 1);
+}
+.block-item:before {
+	content: "";
+	position: relative;
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, .4);
+}
+.Feat_block-item p {
+	font-weight: 400;
+	font-size: 16px;
+	color: rgba(82, 85, 96, 1);
+}
+
+/*Projects*/
+.Projects {
+	font-family: "Roboto", sans-serif;
+	padding: 96px 110px 0px;
+}
+.content_flex {
+	display: flex;
+	column-gap: 24px;
+	padding-top: 40px;
+}
+.item_flex {
+	position: relative;
+}
+.tex {
+	width: 640px;
+	position: relative;
+	top: 32px;
+	left: 109px;
+}
+.tex h2 {
+	font-weight: 700;
+	font-size: 48px;
+
+	margin-bottom: 32px;
+}
+.con_flex {
+	position: absolute;
+	padding: 80px 56px 87px;
+	border-radius: 20px;
+	top: 0;
+	left: 0;
+
+	color: white;
+	background-color: rgba(11, 7, 6, .5);
+}
+.con_flex h3 {
+	font-weight: 700;
+	font-size: 28px;
+	margin-bottom: 16px;
+}
+.con_flex p {
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 64px;
+}
+.con_flex a {
+	display: inline-block;
+	padding: 16px 32px;
+	border-radius: 4px;
+
+	font-weight: 500;
+	font-size: 16px;
+	
+	color: black;
+	background-color: white;
+
+	transition: color .4s, background-color .5s;
+}
+.con_flex a:hover {
+	color: white;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/*jion*/
+.jion {
+	font-family: "Roboto", sans-serif;
+	display: block;
+	padding: 61px 110px 74px;
+	
+}
+.img_jion{
+	height: 350px;
+	display: grid;
+	border-radius: 20px;
+	background-image: url('../img/jion.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jion_text {
+	width: 805px;
+	margin: auto;
+
+	color: white;
+}
+.jion_text h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 48px;
+	margin-bottom: 32px;
+}
+.jion_btn {
+	display: flex;
+	justify-content: center;
+	column-gap: 32px;
+}
+
+.volun {
+	display: inline-block;
+	padding: 16px 32px;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+
+	color: black;
+	background-color: #F2C94C;
+
+	transition: color .4s, background-color .6s;
+}
+.volun:hover {
+	color: rgba(242, 201, 76, 1);
+	background-color: rgba(242, 201, 76, 0);
+}
+.don {
+	display: inline-block;
+	padding: 16px 32px;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+
+	color: black;
+	background-color: #fff;
+
+	transition: color .4s, background-color .6s;
+}
+.don:hover {
+	color: white;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/*model*/
+.model {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 99;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	overflow-y: auto;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .4s, visibility .4s;
+}
+.open {
+	visibility: visible;
+	opacity: 1;
+}
+.model_box {
+	width: 640px;
+	height: auto;
+
+	z-index: 1;
+	border-radius: 8px;
+	background-color: white;
+	transform: scale(0);
+	transition: transform .8s;
+}
+.close_box {
+	width: 32px;
+	height: 32px;
+	top: 24px;
+	right: 8px;
+	position: absolute;
+	border: none;
+	border-radius: 4px;
+	padding: 5px;
+	cursor: pointer;
+	background-color: rgba(29, 33, 48, 1);
+	transition: color .4s;
+}
+.close_box img {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 12px;
+	height: 12px;
+}
+.close_box:hover {
+	color: red;
+}
+.open .model_box {
+	transform: scale(1);
+}
+.box {
+	display: grid;
+	padding: 48px;
+	row-gap: 32px;
+}
+.box_text h4 {
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 16px;
+}
+.box_text h6 {
+	font-weight: 400;
+	font-size: 14px;
+
+	color: rgba(82, 85, 96, 1);
+}
+
+/*post_input*/
+.name {
+	display: flex;
+	column-gap: 32px;
+}
+.name p {
+	font-weight: 700;
+	font-size: 12px;
+	color: rgba(29, 33, 48, .6);
+}
+.name input {
+	width: 256px;
+	font-size: 16px;
+	margin-top: 17px;
+	border-bottom:1px solid rgba(0, 0, 0, 1) ;
+}
+
+/*email*/
+.email p {
+	font-weight: 700;
+	font-size: 12px;
+	color: rgba(29, 33, 48, .6);
+}
+.email input {
+	width: 544px;
+	font-size: 16px;
+	margin-top: 17px;
+	border-bottom:1px solid rgba(0, 0, 0, 1);
+}
+/*Mess*/
+.Mess p {
+	font-weight: 700;
+	font-size: 12px;
+	color: rgba(29, 33, 48, .6);
+}
+.Mess textarea {
+	width: 544px;
+	height: 156px;
+	margin-top: 17px;
+	padding: 20px 20px 0 20px;
+	font-size: 16px;
+	resize: none;
+	
+	border-radius: 4px;
+	border:1px solid rgba(0, 0, 0, 1);
+	color: black;
+}
+.mess_btn {
+	width: 170px;
+	padding: 16px 32px;
+	font-weight:500;
+	font-size:16px;
+	border-radius: 4px;
+	background-color: rgba(242, 201, 76, 1);
+}
+
+/*footer*/
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 86px 110px 96px;
+	background-color: rgba(11, 7, 6, 1);
+}
+.logo_whi {
+	color: white;
+}
+.link {
+	display: flex;
+	column-gap: 88px;
+
+	font-family: "Roboto", sans-serif;
+
+	color: white;
+}
+.link p {
+	font-size: 16px;
+	font-weight: 700;
+}
+.link ul {
+	display: grid;
+	list-style: none;
+	grid-gap: 24px;
+}
+.link a {
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+
+	color: rgba(255, 255, 255, .5);
+}
+.link a:hover {
+	font-weight: 600;
+	color: rgba(255, 255, 255, 1);
+}
+
+/*subs*/
+.subs {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 56px;
+
+	color: white;
+}
+.subs p {
+	margin-bottom: 32px;
+}
+.subs input {
+	width: 408px;
+	height: 64px;
+	padding: 20px 30px 20px 24px;
+	border: 1px solid rgba(235, 240, 249, 0.3);
+	border-radius: 4px;
+
+	font-size: 16px;
+	font-weight: 400;
+}
+.subs-btn {
+	padding: 22px 32px;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+
+	color: rgba(29, 33, 48, 1);
+	background-color: #fff;
+
+	transition: color .4s, background-color .6s;
+}
+.subs-btn:hover {
+	color: white;
+	background-color: rgba(255, 255, 255, 0);
+}
